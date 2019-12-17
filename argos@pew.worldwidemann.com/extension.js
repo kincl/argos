@@ -25,7 +25,7 @@ let debounceTimeout = null;
 let buttons = [];
 
 function init() {
-  let directoryPath = GLib.build_filenamev([GLib.get_user_config_dir(), "argos"]);
+  let directoryPath = "/usr/local/scusa/etc/argos";
 
   directory = Gio.File.new_for_path(directoryPath);
 
